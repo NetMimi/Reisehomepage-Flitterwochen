@@ -2,14 +2,18 @@
     box-sizing: border-box;
 }
 
-body, ul, li, h1, h2 {
-    color:  rgb(39, 36, 36);
+body,
+ul,
+li,
+h1,
+h2 {
+    color: rgb(39, 36, 36);
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-header{
+header {
     background-color: #f4f4f4;
     padding: 20px;
     text-align: center;
@@ -20,62 +24,62 @@ header{
     left: 0;
 }
 
-header h1{
+header h1 {
     color: #4b4b4b;
     padding: 6px 12px;
     display: inline-block;
-font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-.banner{
+.banner {
     position: relative;
 }
 
-.banner img{
+.banner img {
     width: 100%;
 }
 
-.banner .welcome{
+.banner .welcome {
     padding: 30px;
     position: absolute;
     right: 60px;
     top: 15%;
 }
 
-.banner h2{
+.banner h2 {
     font-size: 3vw;
 }
 
-.banner h2 span{
+.banner h2 span {
     font-size: 1.3em;
 }
 
 .welcome {
-font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-nav{
+nav {
     display: flex;
     justify-content: space-evenly;
     background-color: #f4f4f4;
     padding: 20px;
     position: sticky;
-    top: 106px;
+    top: 86px;
     white-space: nowrap;
     width: 100%;
     font-size: 18px;
 }
 
-nav a{
+nav a {
     text-decoration: none;
     color: #4b4b4b;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
-   margin: 10px;
+    margin: 10px;
 }
 
 
-main{
+main {
     max-width: 100%;
     width: 1200px;
     margin: 80px auto;
@@ -83,12 +87,12 @@ main{
     box-sizing: border-box;
 }
 
-div h3{
-color: #4b4b4b;
-font-size: 25px;
+div h3 {
+    color: #4b4b4b;
+    font-size: 25px;
 }
 
-div p{
+div p {
     line-height: 2em;
     color: #4b4b4b;
 }
@@ -104,13 +108,13 @@ div p{
     margin-right: 20px;
 }
 
-.travelroute-picture{
+.travelroute-picture {
     width: 500px;
     margin-right: 20px;
 }
 
 
-.blog{
+.blog {
     max-width: 100%;
     width: 1200px;
     margin: 80px auto;
@@ -119,7 +123,7 @@ div p{
 
 
 
-footer{
+footer {
     background: #f4f4f4;
     color: #4b4b4b;
     padding: 10px;
@@ -128,7 +132,7 @@ footer{
 
 }
 
-.flex-page{
+.flex-page {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
