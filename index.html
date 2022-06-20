@@ -8,28 +8,30 @@
 
   <body>
     <div class="flex-page">
-      <header>
-        <h1>Flitterwochen Mimi & Remo</h1>
+      <header class="banner">
+        <img
+          class="hero-image"
+          src="img/HW1.jpg"
+          alt="honeymoon welcome banner"
+        />
+        <div class="welcome">
+          <h1>
+            Willkommen auf unserem <br /><span>Flitterwochen - Reiseblog</span>
+          </h1>
+        </div>
       </header>
 
-      <section class="banner">
-        <img src="img/HW1.jpg" alt="honeymoon welcome banner" />
-        <div class="welcome">
-          <h2>
-            Willkommen auf unserem <br /><span>Flitterwochen - Reiseblog</span>
-          </h2>
-        </div>
-      </section>
-
       <nav>
-        <a href="index.html">Home</a>
-        <a href="about.html">Über uns</a>
-        <a href="travelblog.html">Reiseberichte</a>
+        <div class="nav-content">
+          <a href="index.html">Home</a>
+          <a href="about.html">Über uns</a>
+          <a href="travelblog.html">Reiseberichte</a>
+        </div>
       </nav>
 
       <main>
         <div>
-          <h3>Wohin geht die Reise?</h3>
+          <h2>Wohin geht die Reise?</h2>
           <p>
             All diejenigen, welche nun sofort an Hawaii gedacht haben, müssen
             wir leider enttäuschen. Aufgrund der Corona Pandemie war es uns
@@ -45,7 +47,7 @@
         </div>
         <br />
         <div>
-          <h3>Unsere Reiseroute</h3>
+          <h2>Unsere Reiseroute</h2>
           <p>
             Unsere Reise beginnt bereits am 12. Juli.2022 mit dem Flug nach Las
             Vegas. Dort werden wir die ersten Tage verbringen und hoffentlich
@@ -70,7 +72,7 @@
             wir dann auch die letzten drei Tage unserer Flitterwochen verbringen
             werden.
           </p>
-          <div class="flex-container">
+          <div class="travelroute-container">
             <img class="travelroute-picture" src="img/usa_LI.jpg" alt="usa" />
             <img
               class="travelroute-picture"
@@ -81,9 +83,7 @@
         </div>
       </main>
 
-      <footer>
-        <p class="copyright">Copyright 2022 Firewave GmbH</p>
-      </footer>
+      <footer>Copyright 2022 Firewave GmbH</footer>
     </div>
   </body>
 </html>
