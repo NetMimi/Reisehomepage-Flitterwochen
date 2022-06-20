@@ -126,7 +126,7 @@ footer {
 
 
     .welcome {
-        position: absolute;
+        position: static;
         text-align: center;
         padding: 10px;
     }
@@ -139,30 +139,20 @@ footer {
         font-size: 1em;
     }
 
+    .nav-content {
+        width: 100%;
+        flex-direction: column;
+    }
+
     .travelroute-container {
         flex-wrap: wrap;
+        width: 100%;
     }
 
     .travelroute-picture {
         margin: 20px auto;
-    }
-}
-
-
-
-@media screen and (max-width: 560px) {
-
-    nav {
-        font-size: 20px;
-        display: block;
         width: 100%;
-        margin: 12px 0;
     }
 
-    header {
-        position: relative;
-    }
 
-    nav {
-        top: 0;
-    }
+}
