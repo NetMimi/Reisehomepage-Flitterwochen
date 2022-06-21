@@ -89,6 +89,11 @@ main {
     width: 500px;
 }
 
+.about-container {
+    display: flex;
+    margin-bottom: 30px;
+}
+
 .about-picture {
     width: 250px;
     margin-right: 20px;
@@ -125,6 +130,10 @@ footer {
 @media screen and (max-width: 700px) {
 
 
+    main {
+        padding: 0 12px;
+    }
+
     .welcome {
         position: static;
         text-align: center;
@@ -154,5 +163,11 @@ footer {
         width: 100%;
     }
 
+    .about-container {
+        flex-wrap: wrap;
+    }
 
+    .about-picture {
+        margin-bottom: 20px;
+    }
 }
