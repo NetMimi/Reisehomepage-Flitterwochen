@@ -97,6 +97,7 @@ main {
 .travelroute-picture {
     display: flex;
     width: 500px;
+    border-radius: 10px;
 }
 
 .about-container {
@@ -107,6 +108,7 @@ main {
 .about-picture {
     width: 250px;
     margin-right: 40px;
+    border-radius: 10px;
 }
 
 .card-container {
@@ -184,9 +186,6 @@ footer {
     min-height: 100vh;
     justify-content: flex-start;
 }
-
-
-
 
 
 @media screen and (max-width: 700px) {
