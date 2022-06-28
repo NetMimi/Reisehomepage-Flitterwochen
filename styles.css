@@ -183,7 +183,6 @@ main {
 }
 
 
-
 footer {
     display: grid;
     place-items: center;
@@ -199,6 +198,39 @@ footer {
     flex-direction: column;
     min-height: 100vh;
     justify-content: flex-start;
+}
+
+
+@media screen and (max-width: 1050px) {
+
+    .travelroute-picture {
+        margin: 20px auto;
+        width: 48%;
+    }
+}
+
+
+@media screen and (max-width: 950px) {
+
+    .travelroute-container {
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .travelroute-picture {
+        margin: 20px auto;
+        width: 100%;
+    }
+
+    .about-container {
+        flex-wrap: wrap;
+    }
+
+    .about-picture {
+        margin-bottom: 20px;
+
+    }
+
 }
 
 
@@ -225,7 +257,6 @@ footer {
 
     .nav-content {
         width: 100%;
-
     }
 
     .nav-text {
