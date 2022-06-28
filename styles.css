@@ -225,7 +225,11 @@ footer {
 
     .nav-content {
         width: 100%;
-        flex-direction: column;
+
+    }
+
+    .nav-text {
+        display: none;
     }
 
     .travelroute-container {
@@ -244,5 +248,6 @@ footer {
 
     .about-picture {
         margin-bottom: 20px;
+
     }
 }
