@@ -22,5 +22,5 @@ jobs:
           key: ${{ secrets.SSH_KEY }}
           passphrase: ${{ secrets.PASSPHRASE }}
           strip_components: 1
-          source: './*'
+          source: './'
           target: '/usr/share/nginx/html/flitterwochen/'
