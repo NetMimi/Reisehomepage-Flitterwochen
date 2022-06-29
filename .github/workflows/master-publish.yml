@@ -1,0 +1,26 @@
+name: Push_to_DO
+on:
+  push:
+    branches:
+      - master
+
+    tags:
+      - v*
+
+jobs:
+  push:
+    runs-on: ubuntu-20.04
+    if: github.event_name == 'push'
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - uses: appleboy/scp-action@v0.1.1
+        with:
+          host: firewave.io
+          username: root
+          key: ${{ secrets.SSH_KEY }}
+          passphrase: ${{ secrets.PASSPHRASE }}
+          strip_components: 1
+          source: './build/*'
+          target: '/usr/share/nginx/html/flitterwochen/'
