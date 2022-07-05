@@ -87,6 +87,12 @@ main {
     width: 30px;
 }
 
+.blog-link {
+
+    font-weight: bold;
+    color: #4b4b4b;
+}
+
 .travelroute-container {
     display: flex;
     justify-content: space-between;
