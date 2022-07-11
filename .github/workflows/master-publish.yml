@@ -23,4 +23,4 @@ jobs:
           passphrase: ${{ secrets.PASSPHRASE }}
           strip_components: 1
           source: './'
-          target: '/usr/share/nginx/html/flitterwochen/'
+          target: '/usr/share/nginx/html/hochzeit/'
