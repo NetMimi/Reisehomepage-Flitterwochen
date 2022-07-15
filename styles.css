@@ -87,6 +87,10 @@ main {
     width: 30px;
 }
 
+.blog-text img {
+    max-width: 100%;
+}
+
 .blog-link {
 
     font-weight: bold;
