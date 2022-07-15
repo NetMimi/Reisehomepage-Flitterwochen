@@ -89,6 +89,7 @@ main {
 
 .blog-text img {
     max-width: 100%;
+    display: block;
 }
 
 .blog-link {
