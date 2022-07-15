@@ -175,11 +175,11 @@ main {
 }
 
 .blog-text {
-width: 1200px;
+    max-width: 1200px;
 }
 
 .blog-text img {
-    max-width: 100%;
+    max-width: 500px;
     display: block;
 }
 
