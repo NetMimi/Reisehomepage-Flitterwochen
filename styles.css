@@ -87,11 +87,6 @@ main {
     width: 30px;
 }
 
-.blog-text img {
-    max-width: 100%;
-    display: block;
-}
-
 .blog-link {
 
     font-weight: bold;
@@ -179,6 +174,14 @@ main {
     margin-bottom: 20px;
 }
 
+.blog-text {
+width: 1200px;
+}
+
+.blog-text img {
+    max-width: 100%;
+    display: block;
+}
 
 .back {
     margin-bottom: 40px;
