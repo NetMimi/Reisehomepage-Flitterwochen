@@ -175,7 +175,7 @@ main {
 }
 
 .blog-text {
-    
+    max-width: 1200px;
 }
 
 .blog-text img {
@@ -295,4 +295,12 @@ footer {
         margin-bottom: 20px;
 
     }
+.blog-text {
+    max-width: 100%;
+}
+
+.blog-text img {
+    max-width: 100%;
+display: block;
+}
 }
